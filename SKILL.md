@@ -2,14 +2,14 @@
 name: model-routing-guide
 description: 教 AI 助手“挑模型”的方法卡。现在能用的大模型很多——国外的、国内的、免费的、付费的，很多人不知道什么活该用什么模型：一直用最贵的，浪费钱；一直用最便宜的，效果不好。本技能给出一条简单实用的分工原则：遇到西方技术栈的问题（微软、Adobe、苹果的产品，国外软件、海外开源项目的排错、调研、学习），优先用国外大模型（如 Claude、GPT、Gemini），这类模型的训练资料里相关内容最全；遇到中国特色事务（国内政策、民情生活、微信钉钉生态、国内开源项目如千问系），优先用国内大模型，它们更懂中国语境。日常简单任务用便宜模型，真正难的任务才动用贵模型。适合：同时配置了多个大模型、想控制使用成本、希望“好钢用在刀刃上”的使用者。触发词：选模型、模型分工、用哪个模型、国内外模型、model routing、选哪个 LLM。
 agent_created: true
-version: 1.0.4
+version: 1.0.5
 author: 天工创新坊
 license: CC BY 4.0
 display_name: "国内外大模型分工"
 display_name_en: Model Routing Guide
-trigger: ["选模型", "用哪个模型", "国内外模型", "model routing", "选 LLM"]
+trigger: ["选模型", "用哪个模型", "国内外模型", "model routing", "选 LLM", "which model", "choose a model", "domestic or Western model", "select LLM"]
 description_zh: "国内外大模型分工：按任务性质选择国内或国外模型"
-description_en: "Route tasks to domestic vs Western LLMs by task nature"
+description_en: "How domestic and Western large models divide the work: choose a domestic or Western model according to the nature of the task"
 category: research
 ---
 
